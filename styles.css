@@ -21,17 +21,17 @@
 /*   font-weight: bold; */
 /*   text-transform: uppercase; */
 /* } */
-div {
-  color: lightcoral;
-  border: 1px solid gray;
-  margin: 40px;
-  font-weight: bold;
-}
-div p {
-  border: inherit;
-  margin: inherit;
-  color: crimson;
-}
-p {
-  color: orange;
-}
+/* div { */
+/*   color: lightcoral; */
+/*   border: 1px solid gray; */
+/*   margin: 40px; */
+/*   font-weight: bold; */
+/* } */
+/* div p { */
+/*   border: inherit; */
+/*   margin: inherit; */
+/*   color: crimson; */
+/* } */
+/* p { */
+/*   color: orange; */
+/* } */
