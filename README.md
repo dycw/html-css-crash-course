@@ -1,3 +1,3 @@
-# `template-generic`
+# HTML & CSS Crash Course (The Net Nina)
 
-Template for generic repositories
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G
