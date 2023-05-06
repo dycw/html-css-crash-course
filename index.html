@@ -1,41 +1,84 @@
 <!doctype html>
 <html>
   <head>
-    <title>Learning HTML</title>
+    <title>HTML forms</title>
   </head>
   <body>
-    <div>
-      <p>Hello <strong>Ninjas</strong>!</p>
-      <p>My <small>first</small> web <em>page</em>!</p>
-      <p>My <small>first</small> web <em>page</em>!</p>
-      <a href="about.html">About us</a>
-    </div>
+    <h1>HTML forms</h1>
+    <form>
+      <label for="username">Enter username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="username"
+        required
+      />
 
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+      <br /><br />
 
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
+      <label for="email">Enter email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your email"
+        required
+      />
 
-    <div>This is a section</div>
+      <br /><br />
 
-    <span>I am a <br />span tag</span>
+      <label for="password">Enter password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Choose a password"
+        required
+      />
 
-    <hr />
+      <p>Select your age:</p>
 
-    <img src="img/thumb-1.png" alt="an image" />
+      <input type="radio" name="age" value="0-25" id="option-1" />
+      <label for="option-1">0-25</label>
+      <input type="radio" name="age" value="26-50" id="option-2" />
+      <label for="option-2">26-50</label>
+      <input type="radio" name="age" value="51+" id="option3" />
+      <label for="option-3">51+</label>
 
-    <blockquote cite="https://www.oscarwildesite.com">
-      We are all in the gutter, but some of us are looking at the stars
-    </blockquote>
+      <br /><br />
 
-    <p style="color: orange">style me :)</p>
+      <label for="quesiton">Security question:</label>
+      <select name="question" id="question">
+        <option value="q1">
+          What colour are your favourite pair of socks?
+        </option>
+        <option value="q2">
+          If you could be a vegetable, what would it be?
+        </option>
+        <option value="q3">What is your best ever security question?</option>
+      </select>
+
+      <br /><br />
+
+      <label for="answer">Security question answer:</label>
+      <input type="text" name="answer" id="answer" />
+
+      <br /><br />
+
+      <label for="bio">Your bio:</label>
+      <br />
+      <textarea
+        rows="30"
+        cols="10"
+        name="bio"
+        id="bio"
+        placeholder="About you..."
+      ></textarea>
+
+      <br /><br />
+
+      <input type="submit" value="Submit the form" />
+    </form>
   </body>
 </html>
